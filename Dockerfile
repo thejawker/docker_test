@@ -48,4 +48,6 @@ RUN pip install numpy
 
 RUN apt-get install -y \
     php-mcrypt \
+    php-mbstring \
+    php-xml \
     php-soap

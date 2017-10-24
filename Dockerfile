@@ -50,4 +50,5 @@ RUN apt-get install -y \
     php-mcrypt \
     php-mbstring \
     php-xml \
+    php-mysql \
     php-soap

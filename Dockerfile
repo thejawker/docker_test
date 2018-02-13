@@ -38,9 +38,7 @@ RUN apt-get install -y \
     sqlite \
     zip \
     unzip \
-    php-soap \
     libxml2-dev
-
 
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py
 
@@ -51,5 +49,4 @@ RUN apt-get install -y \
     php-mbstring \
     php-xml \
     php-mysql \
-    php-soap \
-    php-zip
+    php-soap

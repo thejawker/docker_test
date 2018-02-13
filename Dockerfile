@@ -51,4 +51,5 @@ RUN apt-get install -y \
     php-mbstring \
     php-xml \
     php-mysql \
-    php-soap
+    php-soap \
+    php-zip

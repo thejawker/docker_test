@@ -45,8 +45,9 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py
 RUN pip install numpy
 
 RUN apt-get install -y \
-    php-mcrypt \
-    php-mbstring \
-    php-xml \
-    php-mysql \
-    php-soap
+    php7.1-mcrypt \
+    php7.1-mbstring \
+    php7.1-xml \
+    php7.1-mysql \
+    php7.1-soap \
+    php7.1-zip
